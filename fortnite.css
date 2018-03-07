@@ -1,0 +1,19 @@
+
+html, body {
+  background-color: #761fa1;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  color: white;
+  font-family: Quicksand;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
