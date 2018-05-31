@@ -9,19 +9,21 @@
       gtag('js', new Date());
       gtag('config', 'UA-116416814-1');
     </script>
-    <title>The Wheel of Fortnite</title>
+    <title>Fortnite Location Picker</title>
     <link rel = "stylesheet" type = "text/css" href = "fortnite.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand:light' rel='stylesheet'>
     <link rel="icon" href="images/fortnite-logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div class="container">
-      <h1>The Wheel of</h1>
+      <h1 class="headline">The Locations of</h1>
       <img src="images/fortnite.png" alt="fortnite-logo" width="200" height="80">
-      <p>Where are you heading?</p>
-      <iframe src="https://wheeldecide.com/e.php?c1=Anarchy+Acres&c2=Tatty+Tiwers&c3=Flush+Factory&c4=Greasy+Grove&c5=Lonely+Lodge&c6=Moisty+Mire&c7=Pleasant+Park&c8=Retail+Row&c9=Wailing+Woods&c10=Dusty+Depot&c11=Salty+Springs&c12=Tomato+Town&c13=Titty+Again&c14=Junk+Junction&c15=Haunted+Hills&c16=Lucky+Landing&c17=Snobby+Shores&c18=Tilted+Towers&c19=Shifty+Shafts&c20=Titty+Towers&c21=Totty+Titters&c22=Old+Faithful&c23=Gladiator+Titty&c24=Fatal+Fields&c25=Fish+Bunny&c26=Risky+Reels&c27=Prison&c28=Swimming&cols=7222a1,ffffff&t=The+Wheel+of+Fortnite&time=10" width="500" height="500" scrolling="no" frameborder="0"></iframe>
-    </div>
+      <br><br>
+      <button onclick="locationPicker()">find that location</button>
+      <br><br>
+      <p id="location"></p>
   </body>
   <script src="script.js "> </script>
 </html>

@@ -3,8 +3,6 @@ html, body {
   background-color: #761fa1;
   padding: 0;
   margin: 0;
-  height: 100%;
-  width: 100%;
 }
 
 .container {
@@ -12,12 +10,43 @@ html, body {
   font-family: Quicksand;
   text-align: center;
   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
+  margin: 20px;
 }
 
 .container h1 {
   margin: 0;
+  padding-top: 10%;
+}
+
+.container p {
+  color: white;
+  font-size: 50px;
+  font-family: Quicksand;
+  text-align: center;
+  position: relative;
+  margin: 20px;
+}
+
+iframe {
+  height: 350px;
+  width: 350px;
+}
+
+button {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 0px;
+  font-family: Quicksand;
+  color: #ffffff;
+  font-size: 14px;
+  background: #761fa1;
+  padding: 5px 10px 5px 10px;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: white;
+  color: black;
+  text-decoration: none;
 }
