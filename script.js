@@ -1,21 +1,4 @@
-
-// function locationPicker() {
-// var locationArray = [
-//   'Tilted Towers',
-//   'Moisty Mire',
-//   'Prison',
-//   'Retail Row',
-//   'Salty Springs',
-//   'Old Faithful',
-//   'Lucky Landing'
-// ];
-//
-// var randomiser = locationArray[Math.floor(Math.random() * locationArray.length)];
-// document.getElementById("location").innerHTML = randomiser;
-// console.log(randomiser);
-// }
-
-var resources = [{
+var locations = [{
     type: 'Anarchy Acres',
     chance: 2
   },
@@ -105,21 +88,22 @@ var resources = [{
   }
 ];
 
-function locationPicker() {
-  var array = [];
+var array = [];
+console.log(array)
 
-  resources.forEach((item) => {
-    var chance = item.chance / 10;
-    for (var j = 0; j < chance; j++) {
-      array.push(item.type);
-    }
-  })
+locations.forEach((item) => {
+  var chance = item.chance;
+  for (var j = 0; j < chance; j++) {
+    array.push(item.type);
+  }
+})
+
+function locationPicker() {
 
   var idx = Math.floor(Math.random() * array.length);
+  console.log(array[idx]);
 
   document.getElementById("location").innerHTML = array[idx];
   document.getElementById("location").classList.add('animated', 'infinite', 'tada');
 
 }
-
-// console.log(locationPicker(resources));
