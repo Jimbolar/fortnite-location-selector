@@ -1,5 +1,5 @@
 var locations = [{
-    type: 'Anarchy Acres',
+    type: 'Desert',
     chance: 2
   },
   {
@@ -39,7 +39,7 @@ var locations = [{
     chance: 3
   },
   {
-    type: 'Moisty Mire',
+    type: 'Paradise Palms',
     chance: 3
   },
   {
@@ -51,7 +51,7 @@ var locations = [{
     chance: 5
   },
   {
-    type: 'Prison',
+    type: 'Lazy Links',
     chance: 5
   },
   {
