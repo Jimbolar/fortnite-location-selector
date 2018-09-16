@@ -1,0 +1,25 @@
+{
+  "name": "fortnite-location-selector",
+  "version": "1.0.0",
+  "description": "I would spend ages arguing with my friends with regards to where to drop in. This helped.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jimbolar/fortnite-location-selector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jimbolar/fortnite-location-selector/issues"
+  },
+  "homepage": "https://github.com/Jimbolar/fortnite-location-selector#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
