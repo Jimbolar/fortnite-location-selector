@@ -1,2 +1,2 @@
 # fortnite-location-selector
-Where oh where should we drop in?
+Where are we going?
