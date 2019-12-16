@@ -27,19 +27,14 @@ html, body {
   position: relative;
 }
 
-iframe {
-  height: 350px;
-  width: 350px;
-}
-
 button {
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 0px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 10px;
   font-family: Quicksand;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 16px;
   background: #761fa1;
   padding: 5px 10px 5px 10px;
   border: solid #ffffff 1px;
