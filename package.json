@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "I would spend ages arguing with my friends with regards to where to drop in. This helped.",
   "main": "index.js",
-  "engines": {
-    "node": 13.05.0
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
