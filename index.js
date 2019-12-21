@@ -1,7 +1,7 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-// const PORT = 3000;
+const PORT = 3000;
 
 app.use('/client', express.static(path.join(__dirname + '/client')));
 
@@ -32,6 +32,6 @@ app.get("*", (req, res) => {
 //   .send('Unknown Request');
 // });
 
-// app.listen(PORT, function(){
-//     console.log(`Server is listening on port ${PORT}`);
-// });
+app.listen(PORT, function(){
+    console.log(`Server is listening on port ${PORT}`);
+});
