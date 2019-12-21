@@ -4,7 +4,8 @@
   "description": "I would spend ages arguing with my friends with regards to where to drop in. This helped.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +23,5 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
-  },
-  "scripts": {
-    "start": "index.js"
   }
 }
